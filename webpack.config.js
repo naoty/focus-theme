@@ -13,8 +13,19 @@ module.exports = {
         test: /\.sass$/,
         use: ExtractTextPlugin.extract({
           use: [
-            "css-loader",
-            "sass-loader"
+            {
+              loader: "css-loader",
+              options: {
+                minimize: true,
+                sourceMap: true
+              }
+            },
+            {
+              loader: "sass-loader",
+              options: {
+                sourceMap: true
+              }
+            }
           ]
         })
       }
