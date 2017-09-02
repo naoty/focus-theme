@@ -9,5 +9,8 @@
     "email": "naoty.k@gmail.com"
   },
   "repository": "https://github.com/naoty/focus-theme",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "webpack": "^3.5.5"
+  }
 }
