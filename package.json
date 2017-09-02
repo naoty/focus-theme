@@ -9,6 +9,9 @@
     "email": "naoty.k@gmail.com"
   },
   "repository": "https://github.com/naoty/focus-theme",
+  "scripts": {
+    "build": "webpack"
+  },
   "private": true,
   "devDependencies": {
     "css-loader": "^0.28.7",
