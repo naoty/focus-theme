@@ -1,0 +1,13 @@
+{
+  "name": "focus-theme",
+  "version": "1.0.0",
+  "description": "My private hatenablog theme",
+  "homepage": "https://github.com/naoty/focus-theme",
+  "license": "MIT",
+  "author": {
+    "name": "Naoto Kaneko",
+    "email": "naoty.k@gmail.com"
+  },
+  "repository": "https://github.com/naoty/focus-theme",
+  "private": true
+}
