@@ -1,7 +1,8 @@
 @import "../../node_modules/normalize.css/normalize.css"
+@import "./variables.sass"
 
 html
-  font-family: "Times New Roman", YuMincho, "Yu Mincho", serif
+  font-family: $serif-font-family
   font-size: 16px
   line-height: 1.8em
 
@@ -13,7 +14,7 @@ h5,
 h6,
 .categories a,
 .entry-header-menu a
-  font-family: -apple-system, BlinkMacSystemFont, YuGothic, "Yu Gothic", sans-serif
+  font-family: $sans-serif-font-family
 
 #container
   width: 40em
@@ -27,7 +28,7 @@ h6,
 #title a,
 .entry-title a,
 .date a
-  color: #000000
+  color: $text-color
   text-decoration: none
 
 .categories a,
@@ -37,18 +38,18 @@ h6,
 
 .entry-content
   pre, code
-    font-family: Ricty, Menlo, Consolas, monospace
+    font-family: $monospace-font-family
 
   pre
-    background-color: #f7f7f7
+    background-color: $code-background-color
     padding: 1em
     line-height: 1.3em
 
   code
     font-size: inherit
-    background-color: #f7f7f7
+    background-color: $code-background-color
     border: none
     border-radius: 0
 
 .entry-footer
-  font-family: -apple-system, BlinkMacSystemFont, YuGothic, "Yu Gothic", sans-serif
+  font-family: $sans-serif-font-family
