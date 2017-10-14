@@ -10,7 +10,7 @@
   },
   "repository": "https://github.com/naoty/focus-theme",
   "scripts": {
-    "build": "webpack && cat dist/stylesheets/bundle.css | pbcopy"
+    "build": "gulp"
   },
   "private": true,
   "devDependencies": {
